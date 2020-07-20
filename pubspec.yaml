@@ -1,0 +1,50 @@
+name: web_site
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  responsive_builder: ^0.1.5
+  get_it: ^3.1.0
+  url_launcher: ^5.5.0
+  pdf_flutter: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+
+    - family: Inconsolata
+      fonts:
+        - asset: assets/fonts/Inconsolata-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inconsolata-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inconsolata-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inconsolata-Bold.ttf
+          weight: 700
+
+    - family: Jura
+      fonts:
+        - asset: assets/fonts/Jura-VariableFont_wght.ttf
+          weight: 300
