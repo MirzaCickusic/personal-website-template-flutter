@@ -189,7 +189,7 @@ class HomeContentMobile extends StatelessWidget {
               height: 60,
             ),
             Text(
-              "My email is mirza.cickusi21@gmail.com",
+              "My email is " + myEmail,
               style: TextStyle(
                   color: heroTextColor,
                   height: 1.5,
@@ -200,15 +200,6 @@ class HomeContentMobile extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Text(
-              "Want to know my working experience or skills? download my \"resume\" its in the navbar",
-              style: TextStyle(
-                  color: heroTextColor,
-                  height: 1.5,
-                  fontSize: 18,
-                  fontFamily: 'Inconsolata',
-                  fontWeight: FontWeight.w600),
-            )
           ],
         ),
       ),
