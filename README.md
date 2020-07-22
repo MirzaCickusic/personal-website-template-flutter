@@ -32,4 +32,4 @@ samples, guidance on mobile development, and a full API reference.
 VOULA! You did it.
 
 Ps:
-for every change you made on website code. To update it in real time just run flutter build web and then firebase doploy
+for every change you made on website code. To update it in real time just run flutter build web and then firebase doploy again from root dir of this project
